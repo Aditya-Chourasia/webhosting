@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Roboto Slab";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .nav-item {
+  margin: 0 20px;
+}
+
+.navbar-brand {
+  width: 160px;
+  padding-top: 10px;
+}
+
+.navbar-sec {
+  width: 100%;
+}
+
+.navbar-sec .nav-item {
+  margin-right: 40px;
+  margin-left: 0;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.title-text {
+  background-color: #ccedff;
+  overflow: auto;
+}
+
+.title-text img {
+  width: 100%;
+  text-align: right;
+  padding-top: 40px;
+}
+
+.btn-title {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2d76a6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.btn-title:hover {
+  background: #20597d;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-content {
+  padding-top: 100px;
+  padding-left: 125px;
+}
+
+.shared-hosting {
+  letter-spacing: 3px;
+}
+
+.text-content h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  width: 90%;
+}
+
+.para-content {
+  padding-top: 20px;
+  font-size: 1.2rem;
+  width: 90%;
+}
+
+.bg-custom {
+  background-color: #ccedff;
+  padding: 20px 0;
+}
+
+.para-content2 {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.plans-heading {
+  font-size: 4rem;
+  width: 80%;
+  font-weight: 900;
+  padding-top: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.plans-para {
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+
+#plans .card {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#Why-us {
+  margin-top: 10%;
+  padding-top: 5%;
+  text-align: center;
+  background-color: #ccedff;
+}
+
+#Why-us h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+#Why-us .col-lg-6 {
+  text-align: left;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#what {
+  padding: 7% 0;
+}
+
+#what img {
+  width: 100%;
+}
+
+#what h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.what-para {
+  margin-bottom: 30px;
+}
+
+#rating {
+  padding: 7% 0;
+}
+
+#rating h1 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
+#footer {
+  padding: 7% 3%;
+  background-color: #ccedff;
+}
+
+#footer p {
+  padding-top: 20px;
+}
+
+#footer .col-lg-3 {
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 749px) {
+  .text-content {
+    padding: 20px;
+  }
+
+  .text-content * {
+    width: 100%;
+  }
+
+  #footer .col-lg-3 {
+    width: 100%;
+    padding: 3% 15%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .title-text .row {
+    width: 100%;
+  }
+
+  .title-text img {
+    width: 103.5%;
+  }
+
+  .plans-para {
+    width: 50%;
+    margin: auto;
+  }
+  #rating .card {
+    margin: 20px;
+  }
+
+  #footer img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #footer img {
+    width: 100%;
+  }
+
+  #footer .col-lg-3 {
+    width: 100%;
+    padding: 3% 15%;
+    margin: 0;
+  }
+
+  #rating .card {
+    margin: 20px;
+  }
+}
